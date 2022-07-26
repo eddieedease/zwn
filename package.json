@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "edbuild": "ng build --prod --build-optimizer --aot --output-hashing=all --output-path dist",
+    "build.prod": "ng build --prod --build-optimizer --aot --output-hashing=all"
   },
   "private": true,
   "dependencies": {
