@@ -1,16 +1,36 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { SiteComponent } from './site/site.component';
+
+
+const appRoutes: Routes = [
+  // { path: 'landing', component: LandingComponent },
+  { path: 'site', component: SiteComponent },
+  { path: '',
+    redirectTo: 'site',
+    pathMatch: 'full'
+  },
+  { path: '**', component: SiteComponent }
+];
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SiteComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    RouterModule.forRoot(
+      appRoutes,
+      { useHash: false } // <-- debugging purposes only true
+    ),
+    NgbModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

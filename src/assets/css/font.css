@@ -54,7 +54,7 @@
 }
 @font-face {
 	font-family: 'Montserrat-Black';
-	src: url('../fonts/Montserrat-Black/Montserrat-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-Black/Montserrat-Black.otf') format('opentype'), url('../fonts/Montserrat-Black/Montserrat-Black.woff') format('woff'), url('Montserrat-Black.ttf') format('truetype'), url('../fonts/Montserrat-Black/Montserrat-Black.svg#Montserrat-Black') format('svg');
+	src: url('../fonts/Montserrat-Black/Montserrat-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-Black/Montserrat-Black.otf') format('opentype'), url('../fonts/Montserrat-Black/Montserrat-Black.woff') format('woff'), url('../fonts/Montserrat-Black/Montserrat-Black.ttf') format('truetype'), url('../fonts/Montserrat-Black/Montserrat-Black.svg#Montserrat-Black') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
