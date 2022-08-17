@@ -1,0 +1,27 @@
+<div class="text-wrapper">
+    <div class="title" data-content="404">
+        <img class="img-fluid" src="assets/images/OORlogo.jpg"  alt="lorem pixel"><br>
+        Symposium site in ontwikkeling!
+    </div>
+
+    <div class="subtitle">
+        Kom snel eens terug!
+    </div><br><br><br>
+
+    <div class="buttons">
+        <a class="button" style="cursor: pointer;" (click)="showInlog()">Developer inlog</a>
+    </div>
+    <div *ngIf="showInlogField" class="form-group">
+        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+          <div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-key"></i></div>
+          <input [(ngModel)]="pwdField" [ngModelOptions]="{standalone: true}" type="text" name="name2"
+            class="form-control" >
+            <button (click)="checkPwd()" type="button" class="btn btn-danger">Inloggen</button>
+            
+        </div>
+        <div *ngIf="wrongPwd" class="alert alert-info" role="alert">
+            Niet het juiste wachtwoord.
+          </div>
+        
+      </div>
+</div>
