@@ -1,8 +1,9 @@
 .page-header h1 {
     font-size: 3.26em;
     text-align: center;
-    color: #e30e86;
+    color: #000000;
     text-shadow: 1px 1px 0 #000;
+    font-weight: bold;
   }
   
   /** timeline box structure **/
@@ -10,6 +11,17 @@
     list-style: none;
     padding: 20px 0 20px;
     position: relative;
+  }
+
+  h6 {
+    color: black;
+    font-weight: bold;
+  }
+
+  
+  h3 {
+    color: rgb(21, 12, 104);
+    font-weight: bold;
   }
   
   .timeline:before {
@@ -26,7 +38,7 @@
   .tldate {
     display: block;
     width: 200px;
-    background: #e30e86;
+    background: #000000;
     border: 3px solid #212121;
     color: #ededed;
     margin: 0 auto;
@@ -125,7 +137,7 @@
     top: 23px;
     left: 50%;
     text-align: center;
-    background: #e30e86;
+    background: #fff;
     color: #fff;
     width: 35px;
     height: 35px;
@@ -145,6 +157,7 @@
   .tl-heading h4 {
     margin: 0;
     color: #c25b4e;
+    font-weight: bold;
   }
   
   .tl-body p, .tl-body ul {

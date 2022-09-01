@@ -192,7 +192,7 @@ section{padding:135px 0;}
 .speakers{padding:135px 0;text-align:center;}
 .speakers .speaker-block{margin-bottom:30px;position:relative;display:inline-block;}
 .speakers .speaker-block .speaker-details{background-color:#01273E;bottom:20px;height:90px;left:11%;overflow:hidden;padding:15px;position:absolute;right:11%;transition:all 0.3s ease 0s;}
-.speakers .speaker-block .speaker-details .speaker-name{display:inline-block;font-size:15px;width:100%;text-transform:uppercase;font-family:'RobotoSlab-Bold'}
+.speakers .speaker-block .speaker-details .speaker-name{display:inline-block;font-size:15px;width:100%;font-family:'RobotoSlab-Bold'}
 .speakers .speaker-block .speaker-details .speaker-designation{display:inline-block;font-size:13px;width:100%;font-family:'Montserrat-Light'}
 .speakers .speaker-meta, .speakers .social-meta{border-top:1px solid rgba(255, 255, 255,0.4);margin-top:20px;padding-top:20px;}
 .speakers .social-meta{margin-bottom:20px;}
@@ -203,13 +203,7 @@ section{padding:135px 0;}
 .speakers .styles-button i{color:#fff}
 .speakers .styles-button:hover{background:transparent;color:#ef3040;border-color:#ef3040}
 .speakers .styles-button:hover i{color:#ef3040}
-@keyframes flipInX{from{-webkit-transform:perspective(400px) rotate3d(1, 0, 0, 90deg);transform:perspective(400px) rotate3d(1, 0, 0, 90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:0;}
-40%{-webkit-transform:perspective(400px) rotate3d(1, 0, 0, -20deg);transform:perspective(400px) rotate3d(1, 0, 0, -20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;}
-60%{-webkit-transform:perspective(400px) rotate3d(1, 0, 0, 10deg);transform:perspective(400px) rotate3d(1, 0, 0, 10deg);opacity:1;}
-80%{-webkit-transform:perspective(400px) rotate3d(1, 0, 0, -5deg);transform:perspective(400px) rotate3d(1, 0, 0, -5deg);}
-to{-webkit-transform:perspective(400px);transform:perspective(400px);}
-}
-.speakers .speaker-block:hover .speaker-details{animation-duration:1s;animation-fill-mode:both;animation-name:flipInX;backface-visibility:visible !important;background:#01273E;padding-top:30px;height:calc(100% - 45px);-webkit-backface-visibility:visible !important;backface-visibility:visible !important;-webkit-animation-name:flipInX;animation-name:flipInX;-webkit-padding-before:22px;}
+
 .speakers .column{color:#ef3040;display:inline-block;font-size:24px;letter-spacing:3px;margin-bottom:50px;text-transform:uppercase;font-family:'Montserrat-SemiBold';width:100%;}
 /*------------------------------------------------------------------
 [5.1 Speaker Option ( with Orange Background, 3 Column ) / .speakers.orange ]
@@ -219,8 +213,7 @@ to{-webkit-transform:perspective(400px);transform:perspective(400px);}
 .speakers.orange .speaker-block .speaker-details{background:#fff}
 .speakers.orange .speaker-block .speaker-details .speaker-name{color:#ef3040}
 .speakers.orange .speaker-block .speaker-details .speaker-designation{color:#ef3040}
-.speakers.orange .speaker-block:hover .speaker-details .speaker-name,.speakers.orange .speaker-block:hover .speaker-details .speaker-designation{color:#fff}
-.speakers.orange .speaker-block:hover .speaker-details{animation-duration:1s;animation-fill-mode:both;animation-name:flipInX;backface-visibility:visible !important;background:rgba(0, 0, 0,0.8);padding:50px 30px;height:calc(100% - 45px);-webkit-backface-visibility:visible !important;backface-visibility:visible !important;-webkit-animation-name:flipInX;-webkit-padding-before:22px;animation-name:flipInX;}
+
 .speakers.orange .speaker-meta{padding-top:45px;line-height:27px;margin-top:30px;}
 .speakers.orange .social-meta{margin-top:45px}
 /*------------------------------------------------------------------
@@ -229,7 +222,6 @@ to{-webkit-transform:perspective(400px);transform:perspective(400px);}
 .speakers.black{background:#131414}
 .speakers.black .column{color:#fff}
 .speakers.black .speaker-block .speaker-details{background:rgba(0,0,0,0.7);left:5%;right:5%}
-.speakers.black .speaker-block:hover .speaker-details{animation-duration:1s;animation-fill-mode:both;animation-name:flipInX;backface-visibility:visible !important;background:rgba(237, 94, 49, 0.9);padding:50px 40px;height:calc(100% - 45px);-webkit-backface-visibility:visible !important;backface-visibility:visible !important;-webkit-animation-name:flipInX;-webkit-padding-before:22px;animation-name:flipInX;}
 .speakers.black .speaker-block .speaker-details{height:100px;}
 .speakers.black .speaker-block .speaker-details .speaker-name{font-size:2em;}
 .speakers.black .speaker-block .speaker-details .speaker-designation{font-size:1em;}

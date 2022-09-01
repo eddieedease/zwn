@@ -228,9 +228,7 @@ p.block-title {
 .speakers.black .speaker-block .speaker-details {
 	height: 84px
 }
-.speakers.black .speaker-block:hover .speaker-details, .speakers.orange .speaker-block:hover .speaker-details {
-	padding-top: 15px
-}
+
 .speakers.orange .speaker-meta {
 	margin-top: 10px;
 	padding-top: 10px;
@@ -599,9 +597,7 @@ p.block-title {
 .speakers.black .speaker-block .speaker-details {
 	height: 84px
 }
-.speakers.black .speaker-block:hover .speaker-details, .speakers.orange .speaker-block:hover .speaker-details {
-	padding-top: 15px
-}
+
 .speakers.orange .speaker-meta {
 	margin-top: 10px;
 	padding-top: 10px;
@@ -788,15 +784,11 @@ p.block-title, h2.block-title {
 	font-size: 17px;
 	line-height: 1.5em
 }
-.speakers .speaker-block:hover .speaker-details {
-	height: calc(100% - 145px)
-}
+
 .speakers .speaker-meta {
 	display: none
 }
-.speakers .speaker-block:hover .speaker-details {
-	height: calc(100% - 45px)
-}
+
 .speakers .social-meta a i {
 	line-height: 2.1em;
 	height: 30px;
@@ -823,15 +815,7 @@ p.block-title, h2.block-title {
 .speakers .social-meta a i {
 	line-height: 25px
 }
-.speakers .speaker-block:hover .speaker-details {
-	animation-duration: 1s;
-	animation-fill-mode: both;
-	animation-name: none;
-	backface-visibility: visible;
-	background: rgba(237,94,49,0.9) none repeat scroll 0 0;
-	height: auto;
-	padding: 10px
-}
+
 .speakers .speaker-block .speaker-details .speaker-name {
 	font-size: 16px
 }
@@ -911,15 +895,7 @@ p.block-title, h2.block-title {
 .speakers.orange .speaker-block .speaker-details .speaker-designation, .speakers.orange .speaker-block .speaker-details .speaker-name {
 	color: #fff
 }
-.speakers.orange .speaker-block:hover .speaker-details {
-	animation-duration: 1s;
-	animation-fill-mode: both;
-	animation-name: none;
-	backface-visibility: visible;
-	background: rgba(237,94,49,0.9) none repeat scroll 0 0;
-	height: auto;
-	padding: 10px
-}
+
 .speakers.black .speaker-block .speaker-details {
 	background: transparent;
 	height: auto;
@@ -927,15 +903,7 @@ p.block-title, h2.block-title {
 	right: 0;
 	background: rgba(237,94,49,0.9) none repeat scroll 0 0
 }
-.speakers.black .speaker-block:hover .speaker-details {
-	animation-duration: 1s;
-	animation-fill-mode: both;
-	animation-name: none;
-	backface-visibility: visible;
-	background: rgba(237,94,49,0.9) none repeat scroll 0 0;
-	height: auto;
-	padding: 10px
-}
+
 .speakers.black .speaker-block .speaker-details .speaker-name {
 	font-size: 1em
 }

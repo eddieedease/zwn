@@ -18,10 +18,10 @@ const appRoutes: Routes = [
   { path: 'site', component: SiteComponent },
   { path: 'underconstruction', component: UnderconstructionComponent },
   { path: '',
-    redirectTo: 'underconstruction',
+    redirectTo: 'site',
     pathMatch: 'full'
   },
-  { path: '**', component: UnderconstructionComponent }
+  { path: '**', component: SiteComponent }
 ];
 
 @NgModule({

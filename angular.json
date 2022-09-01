@@ -36,6 +36,7 @@
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js",
               "src/assets/js/classie.js",
               "src/assets/js/index.js",
               "src/assets/js/iscroll.js",

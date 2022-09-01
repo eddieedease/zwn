@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SiteComponent implements OnInit {
 
+  public speaker1 = false;
+  public speaker2 = false;
+  public speaker3 = false;
+  public speaker4 = false;
+
+
   constructor() { }
 
   ngOnInit(): void {
