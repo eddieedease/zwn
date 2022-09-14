@@ -11,7 +11,7 @@ export class SiteComponent implements OnInit {
   public speaker2 = false;
   public speaker3 = false;
   public speaker4 = false;
-
+  public speaker5 = false;
 
   constructor() { }
 
