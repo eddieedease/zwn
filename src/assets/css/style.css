@@ -502,7 +502,7 @@ h3.ts-title{font-weight:400!important;font-family:Poppins,sans-serif!important}
 .testiominals h3{font-family:'Montserrat-SemiBold';font-size:33px;color:#2c2b2b;border-bottom:1px solid #dddddd;padding-bottom:30px;}
 .testiominals h4{color:#000;}
 .owl-testimonial{color:#333;}
-.owl-testimonial .inner-testimonial i.fa-quote-left{font-size:45px;left:30px;position:absolute;}
+.owl-testimonial .inner-testimonial i.fa-quote-left{font-size:45px;left:30px;margin-right:10px}
 .owl-testimonial .inner-testimonial .tm-tagline{float:left;font-size:16px;padding-left:75px;width:100%;min-height:30px;letter-spacing:0.2px;line-height:1.5em;}
 .owl-testimonial.owl-carousel .owl-item:nth-child(odd){border-right:1px solid #dddddd;}
 .owl-testimonial .inner-testimonial{color:#565656;float:left;font-family:Montserrat-Light;padding:20px 35px 0 30px;text-align:left;width:100%;}
