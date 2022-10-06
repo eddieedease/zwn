@@ -645,7 +645,7 @@ footer{float:left;width:100%;}
 .footer-right{max-width:100%;text-align:right;float:right;}
 .footer-right ul{margin-bottom:0;margin-top:6px;}
 .footer-right ul li{display:inline-block;}
-.footer-right ul li a{color:#00a2c3;font-family:'Montserrat-Medium';font-size:16px;text-transform:uppercase;}
+.footer-right ul li a{color:#00a2c3;font-family:'Montserrat-Medium';font-size:16px}
 .footer-right ul li span{margin:0 18px;}
 #google_map{height:500px;}
 .footer-bottom{background:#e9e9e9;padding:20px 0;text-align:center;color:#ef3040}
